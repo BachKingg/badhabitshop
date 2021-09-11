@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/shortcut icon/icon.png">
+    <link rel="stylesheet" href="css/dangkiform.css">
+    <script src="https://kit.fontawesome.com/90de4e40e4.js" crossorigin="anonymous"></script>
+    <title>
+        Hệ thống cửa hàng – Bad Habits store
+    </title>
+    <meta name="description"
+        content="Hồ Chí Minh:Quận 1: 117 Trần Đình Xu, quận 1 Quận 3: 93 Rạch Bùng Binh, quận 3
+             Quận Bình Thạnh: 350 Điện Biên Phủ, phường 17 quận Bình ThạnhHà Nội: Vincom Bà Triệu, tầng 7 Tây Ninh:444 đường 30/4 Thành Phố Tây Ninh">
+    <meta name="keywords" content="áo thun,basic tee,quần jean,jacket,quần jogger">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <nav>
+                    <div class="mobile-header" id="sm--true">
+                        <a class="active" href="index.html">
+                            <h2>BAD HABITS</h2>
+                        </a>
+                    </div>
+
+                    <ul class="sm--hide">
+                        <li><a href="index.html">BAD HABITS</a></li>
+                        <li><a href="dangnhap.html" target="page">ĐĂNG KÝ</a></li>
+                        <li><a href="banhang.html" target="page">SẢN PHẨM</a>
+                            <ul id="ul1">
+                                <li><a href="banhang.html" target="page">COLLECTION</a></li>
+                                <li><a href="banhang.html" target="page">BAD HABITS STORE</a></li>
+                                <li><a href="banhang.html" target="page">END SEASON</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gioithieu.html" target="page">GIỚI THIỆU</a></li>
+                    </ul>
+                </nav>
+
+                <div id="sm--true">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <script src="JS/sliderScript.js"></script>
+                </div>
+                <div class="header-wrap-icon sm--hide">
+                    <span id="site-search-handle" class="icon-search" aria-label="Tìm kiếm" title="Tìm kiếm">
+                        <a href="index.html">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </span>
+                    <span class="icon-account customer_info" aria-label="Tài khoản" title="Tài khoản">
+                        <a onclick="document.getElementById('id01').style.display='block'">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </span>
+                    <span id="site-cart-handle" class="icon-cart" aria-label="Open cart" title="Giỏ hàng">
+                        <a href="banhang.html" target="page">
+                            <i class="fas fa-shopping-bag"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-out" id="myLinks">
+                <a href="dangnhap.html" target="page">ĐĂNG KÝ</a>
+                <a href="banhang.html" target="page">SẢN PHẨM</a>
+                <a href="gioithieu.html" target="page">GIỚI THIỆU</a>
+            </div>
+        </header>
+        <article>
+            <iframe name="page" src="home.html" scrolling="auto"></iframe>
+            <div>
+                <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+
+                    <!-- Modal Content -->
+                    <form class="modal-content animate">
+                        <div class="imgcontainer">
+                            <img src="img/shortcut icon/icon.png" alt="Avatar" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+
+                        <div class="bot-button">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+                    <script>
+                        // Get the modal
+                        var modal = document.getElementById('id01');
+
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function (event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>

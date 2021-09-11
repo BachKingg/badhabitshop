@@ -1,0 +1,344 @@
+.container {
+    max-width: 100%;
+    font-family: 'Quicksand', sans-serif!important;
+}
+
+/* ARTICLE */
+
+.logins {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+
+.registerbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+
+a {
+    color: orange;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* # */
+
+.top-footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-newsletter {
+    flex-basis: auto;
+}
+
+.form-newsletter {
+    height: 45px;
+    font-weight: 500px;
+    padding: 0px 0px 10px 0px;
+    color: #050505;
+    max-width: 100%;
+    width: 60%;
+}
+
+.area-phone-contact {
+    width: auto
+}
+
+.contact-form .input-group input {
+    height: 46px;
+}
+
+.contact-form .input-group input, .contact-form .input-group textarea {
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    height: 45px;
+    font-weight: 500;
+    padding: 0 20px;
+    background: #fbfbfb;
+    color: #050505;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 28px;
+    line-height: normal;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 45px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 28px;
+    line-height: normal;
+    border: 1px solid #000;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #000;
+    -webkit-transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+    color: #000000;
+    overflow: hidden;
+}
+
+.button:before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    z-index: -1;
+    background-color: #ffffff;
+    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button.dark {
+    color: #fff;
+    border-color: #000000;
+    background-color: #fff;
+}
+
+.button.dark:before {
+    background-color: #000000;
+}
+
+.button.dark:hover {
+    color: #000000;
+}
+
+.button:hover:before {
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.number-phone>span>a {
+    color: red;
+}
+
+/* # */
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column-1 {
+    width: 35%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-box {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.text-box {
+    width: 90%;
+    font-size: 15px;
+}
+
+.footer-column-2 {
+    width: 33%;
+}
+
+.footer-column-3 {
+    width: 32%;
+}
+
+.footer-content>a {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-content>a:hover {
+    color: orange;
+}
+
+/* # */
+
+.footerbottom {
+    border-top: 5px double dimgrey;
+    line-height: 20px;
+    bottom: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+iframe[name=page] {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* REPONSIVE MOBILE */
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .sm--hide {
+        display: none;
+    }
+    .sm--true {
+        display: block;
+    }
+    /* HEADER */
+    /* ARTICLE*/
+    /*FOOTER*/
+    /* # */
+    .top-footer {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .title-newsletter {
+        flex-basis: auto;
+    }
+    .form-newsletter {
+        height: auto;
+        font-weight: 500px;
+        padding: 0px 0px 10px 0px;
+        color: #050505;
+        max-width: 100%;
+        width: 100%;
+    }
+    .area-phone-contact {
+        width: 100%;
+        font-size: 18px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form .input-group input {
+        height: 46px;
+    }
+    .contact-form .input-group input, .contact-form .input-group textarea {
+        border: 1px solid #e7e7e7;
+        box-shadow: none;
+        height: 45px;
+        font-weight: 500;
+        padding: 0 20px;
+        background: #fbfbfb;
+        color: #050505;
+        width: 60%;
+        border-radius: 5px;
+    }
+    .button {
+        padding: 10px 28px;
+        line-height: normal;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 13px;
+        text-align: left;
+        letter-spacing: 1px;
+        background-color: #000;
+        border-radius: 5px;
+        color: #ffffff;
+        height: 45px;
+    }
+    /* # */
+}

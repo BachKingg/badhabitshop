@@ -1,0 +1,318 @@
+body {
+    padding-top: 0%;
+    margin: 0%;
+    text-align: justify;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif!important;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    line-height: 30px;
+    background-color: none;
+}
+
+header p {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif!important;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* ARTICLE */
+
+article {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    font-family: 'Quicksand', sans-serif!important;
+}
+
+.topbg {
+    max-width: 100%;
+    align-content: center;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* # */
+
+/* Add a blue text color to links */
+
+a {
+    color: orange;
+}
+
+.top-footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-newsletter {
+    flex-basis: auto;
+}
+
+.form-newsletter {
+    height: 45px;
+    font-weight: 500px;
+    padding: 0px 0px 10px 0px;
+    color: #050505;
+    max-width: 100%;
+    width: 60%;
+}
+
+.area-phone-contact {
+    width: auto
+}
+
+.contact-form .input-group input {
+    height: 46px;
+}
+
+.contact-form .input-group input, .contact-form .input-group textarea {
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    height: 45px;
+    font-weight: 500;
+    padding: 0 20px;
+    background: #fbfbfb;
+    color: #050505;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 28px;
+    line-height: normal;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 45px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 28px;
+    line-height: normal;
+    border: 1px solid #000;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #000;
+    -webkit-transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+    color: #000000;
+    overflow: hidden;
+}
+
+.button:before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    z-index: -1;
+    background-color: #ffffff;
+    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button.dark {
+    color: #fff;
+    border-color: #000000;
+    background-color: #fff;
+}
+
+.button.dark:before {
+    background-color: #000000;
+}
+
+.button.dark:hover {
+    color: #000000;
+}
+
+.button:hover:before {
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.number-phone>span>a {
+    color: red;
+}
+
+/* # */
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column-1 {
+    width: 35%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-box {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.text-box {
+    width: 90%;
+    font-size: 15px;
+}
+
+.footer-column-2 {
+    width: 33%;
+}
+
+.footer-column-3 {
+    width: 32%;
+}
+
+.footer-content>a {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-content>a:hover {
+    color: orange;
+}
+
+/* # */
+
+.footerbottom {
+    border-top: 5px double dimgrey;
+    line-height: 20px;
+    bottom: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+iframe[name=page] {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* REPONSIVE MOBILE */
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .sm--hide {
+        display: none;
+    }
+    .sm--true {
+        display: block;
+    }
+    /* HEADER */
+    /* ARTICLE*/
+    p>img {
+        width: 100%;
+    }
+    /*FOOTER*/
+    /* # */
+    .top-footer {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .title-newsletter {
+        flex-basis: auto;
+    }
+    .form-newsletter {
+        height: auto;
+        font-weight: 500px;
+        padding: 0px 0px 10px 0px;
+        color: #050505;
+        max-width: 100%;
+        width: 100%;
+    }
+    .area-phone-contact {
+        width: 100%;
+        font-size: 18px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form .input-group input {
+        height: 46px;
+    }
+    .contact-form .input-group input, .contact-form .input-group textarea {
+        border: 1px solid #e7e7e7;
+        box-shadow: none;
+        height: 45px;
+        font-weight: 500;
+        padding: 0 20px;
+        background: #fbfbfb;
+        color: #050505;
+        width: 55%;
+        border-radius: 5px;
+    }
+    .button {
+        padding: 10px 28px;
+        line-height: normal;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 13px;
+        text-align: left;
+        letter-spacing: 1px;
+        background-color: #000;
+        border-radius: 5px;
+        color: #ffffff;
+        height: 45px;
+    }
+    /* # */
+}
